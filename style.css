@@ -1,0 +1,30 @@
+body {
+  background-color: #f3f0eb;
+  color: #3b2f2f;
+  font-family: 'Georgia', serif;
+}
+nav, footer {
+  background-color: #e9e4dc;
+  padding: 1rem 0;
+}
+h2, h3 {
+  color: #2f1e1e;
+}
+figure img {
+  width: 100%;
+  border-radius: 8px;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #5c4b4b;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+button {
+  background-color: #6b4f3b;
+  color: white;
+}
